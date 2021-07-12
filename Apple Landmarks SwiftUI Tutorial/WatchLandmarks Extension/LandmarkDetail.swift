@@ -44,9 +44,12 @@ struct LandmarkDetail: View {
 
                 MapView(coordinate: landmark.locationCoordinate)
                     .scaledToFit()
+                
+            
             }
             .padding(16)
         }
+        .navigationTitle("Landmarks")
     }
 }
 

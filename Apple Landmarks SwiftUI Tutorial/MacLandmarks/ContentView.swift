@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  WatchLandmarks Extension
+//  MacLandmarks
 //
-//  Created by Nicholas Steven Bassett on 7/8/21.
+//  Created by Nicholas Steven Bassett on 7/12/21.
 //
 
 import SwiftUI
@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         LandmarkList()
-            .padding()
     }
 }
 
